@@ -28,6 +28,12 @@ public class Main {
 
         System.out.println(average);
 
+        for (int number : numbers){
+            if (number % 2 == 0){
+                System.out.println(number);
+            }
+        }
+
 
     }
 }
